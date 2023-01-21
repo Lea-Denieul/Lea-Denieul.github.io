@@ -1,10 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300;1,700&display=swap');
 
+@font-face {
+    font-family: Archia;
+    src: url("resources/archia_font_desktop/Archia_Font_Desktop/Archia-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Archia;
+    font-weight: bolder;
+    src: url("resources/archia_font_desktop/Archia_Font_Desktop/Archia-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Archia;
+    font-weight: lighter;
+    src: url("resources/archia_font_desktop/Archia_Font_Desktop/Archia-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Archia;
+    font-weight: 500;
+    src: url("resources/archia_font_desktop/Archia_Font_Desktop/Archia-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Archia;
+    font-weight: bold;
+    src: url("resources/archia_font_desktop/Archia_Font_Desktop/Archia-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Archia;
+    font-weight: 100;
+    src: url("resources/archia_font_desktop/Archia_Font_Desktop/Archia-Thin.otf") format("opentype");
+}
+/* Numeric keyword values */
+/*font-weight: 100;
+font-weight: 200;
+font-weight: 300;
+font-weight: 400;*/ /* normal */
+/*font-weight: 500;
+font-weight: 600;
+font-weight: 700;*/ /* bold */
+/*font-weight: 800;
+font-weight: 900;*/
+
 body {
     background-color: #dfd1c5;
     color: black;
     /*cursor: crosshair;*/
-    font-family: 'Cormorant Garamond', serif;
+    font-family: Archia; /*'Cormorant Garamond', serif;*/
     text-align: center;
     font-size: 50px;
     margin: 0;
@@ -314,12 +359,14 @@ DEMO
 
 .content h2 {
     text-align: center;
-    color: #78259f;
+    font-weight: bolder;
+    /*color: #78259f;*/
 }
 
 .content h3 {
     text-align: left;
-    color: #78259f;
+    font-weight: bold;
+    /*color: #78259f;*/
 }
 
 .content li {
